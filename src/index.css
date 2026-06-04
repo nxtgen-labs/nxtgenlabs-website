@@ -1,0 +1,56 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+}
+
+::selection { background: #FF6D00; color: #000; }
+::-moz-selection { background: #FF6D00; color: #000; }
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #0a0a0a; }
+::-webkit-scrollbar-thumb { background: #FF6D00; border-radius: 8px; }
+::-webkit-scrollbar-thumb:hover { background: #ff8c00; }
+
+a { text-decoration: none; }
+button { cursor: pointer; }
+img { display: block; max-width: 100%; }
+
+@keyframes ticker {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.section-label {
+  color: #FF6D00;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.section-divider {
+  width: 32px;
+  height: 2px;
+  background: #FF6D00;
+  margin-bottom: 16px;
+}
+
+/* ── Responsive helpers ── */
+@media (max-width: 768px) {
+  .hide-mobile { display: none !important; }
+}
+@media (min-width: 769px) {
+  .hide-desktop { display: none !important; }
+}
