@@ -38,9 +38,9 @@ export default function Footer() {
             </div>
             <span style={{ color: '#fff', fontSize: 'clamp(16px,2vw,22px)', fontWeight: 600 }}>+91 93817 03878</span>
           </a>
-          <a href="mailto:sandeep19991412@gmail.com" style={{ display: 'flex', alignItems: 'center', gap: 16, textDecoration: 'none' }}>
+          <a href="mailto:info@nxtgenlabs.in" style={{ display: 'flex', alignItems: 'center', gap: 16, textDecoration: 'none' }}>
             <div style={{ width: 44, height: 44, borderRadius: '50%', background: O, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, fontSize: 20 }}>✉️</div>
-            <span style={{ color: '#fff', fontSize: 'clamp(13px,1.5vw,18px)', fontWeight: 600, wordBreak: 'break-all' }}>sandeep19991412@gmail.com</span>
+            <span style={{ color: '#fff', fontSize: 'clamp(16px,2vw,22px)', fontWeight: 600, wordBreak: 'break-all' }}>info@nxtgenlabs.in</span>
           </a>
         </div>
       </div>
