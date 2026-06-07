@@ -14,7 +14,7 @@ export const SERVICES = [
 
 export const PROJECTS = [
   { title: 'Custom Packaging Machine', img: '/images/prj-1.jpg' },
-  { title: 'Service Robot Design',     img: '/images/prj-2.jpg' },
+  { title: 'Modular Rover Chassis',     img: '/images/prj-2.jpg' },
   { title: "Drone's Tank",             img: '/images/prj-3.jpg' },
   { title: 'Drone Camera Gimbal',      img: '/images/prj-4.jpg' },
   { title: 'Custom Enclosure',         img: '/images/prj-5.jpg' },
